@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/*------------- table style---------- */
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .customers tr:hover {background-color: #ddd;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+
+/*  table style end */
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#add-data {
+    margin-top: 20px;
+}
+
+#add-data input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+#add-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#add-button:hover {
+    background-color: #0056b3;
+}
+.inp1div{
+    width: 99%;
+   
+    display: flex;
+    justify-content: center;
+    
+  }
+#searchInput {
+   max-width: 150px;
+   
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+
+/* acardeon */
+
+ 
+.acardion{
+    border:1px solid red
+}
+.acardion-header{
+  margin-top: 5px;
+  display: inline-block;
+  padding: 8px 13px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+}
+.acardion-header:hover {background-color: #3e8e41}
+.acardion-header:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.acardion-body{
+    display: none;
+    padding: 15px;
+    border-bottom: 1px solid chartreuse;
+   
+}
+/* defaultad damalulia js dan klikit vanicheb qvemot moyvnil klass active da mere chans */
+.acardion-body.active{
+   
+    display: flex;
+}
+.acardeoninput{
+  
+  width: 14%;
+  margin-left: 8px;
+}
+
+#addData{
+    margin-left: 8px;
+    background-color: #75c978;
+    border-radius: 6px;
+}

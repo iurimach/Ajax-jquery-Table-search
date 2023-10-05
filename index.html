@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX jQuery Project</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="inp1div"><input type="text" id="searchInput" placeholder="Global Search"></div>
+    <table id="data-table" class="customers">
+        <thead >
+            <tr >
+                <th>Name</th>
+                <th>profession</th>
+                <th> Country</th>
+                <th> Zip code</th>
+                <th> Date</th>
+                <th> Salary</th>
+            </tr>
+            <tr id="search-inputs">
+                <td><input type="text" id="searchID" placeholder="Search Name"></td>
+                <td><input type="text" id="searchName" placeholder="Search profession"></td>
+                <td><input type="text" id="searchAge" placeholder="Search Country"></td>
+                <td><input type="text" id="searchEmail" placeholder="Search zip"></td>
+                <td><input type="text" id="searchCountry" placeholder="Search date"></td>
+                <td><input type="text" id="searchGender" placeholder="Search salary"></td>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+ <button class="acardion-header" id="toggleButton" onclick="toggleButtonText()"> Add new data</button>
+ 
+  <div class="acardion-body">
+    <input type="text" id="column1" placeholder="name" class="acardeoninput">
+    <input type="text" id="column2" placeholder="profession " class="acardeoninput">
+    <input type="text" id="column3" placeholder="place of birth"class="acardeoninput">
+    <input type="number" id="column4" placeholder="zip kod "class="acardeoninput">
+    <input type="date" id="column5" placeholder="Starting a career"class="acardeoninput">
+    <input type="number" id="column6" placeholder="salary"class="acardeoninput">
+    <button id="addData">Add Data</button>
+ </div>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
